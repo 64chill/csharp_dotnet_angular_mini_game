@@ -1,0 +1,15 @@
+<div id="ifadmin">
+    <button (click)="onUserLogout()" id="logoutBtn" type="button" class="btn btn-danger">Logout</button>
+    <a routerLink="/game-table-view">
+        <button
+            type="button"
+            class="btn btn-warning edit-games-a"
+            *ngIf="this.userService.getLoggedinUser().role == 'admin'"
+            >Change Game</button>
+        </a> 
+    <a routerLink="/">
+        </a>
+        <a (click)="onNewGame()">
+        <button type="button" class="btn btn-outline-info a-btn-bgcolor">START</button>
+        </a>       
+</div>

@@ -1,0 +1,14 @@
+.logincompclass{
+    background-color:#5882FA;
+    color: white;
+}
+#registerBtn, #loginBtn{
+  margin-top: 10px;
+  margin-left: 5px;
+}
+#additionalLinksBtn{
+  margin-bottom:20px;
+}
+#additionalLinksBtn button{
+  background-color:#0A1B2A;
+}
